@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #2f4f4f;
+}
+.box {
+  height: 12rem;
+  border: 0.5rem solid gray;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.a {
+  display: none;
+}
+.b {
+  display: block;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* button {
+  height: 2rem;
+  width: 6rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  background-color: orange;
+  border: none;
+  border-radius: 1rem;
+} */
+button{
+  display: none;
+}
